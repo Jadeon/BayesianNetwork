@@ -1,0 +1,11 @@
+A Directed Acyclical Graph is a dict B, whose elements are key value pairs {N:P} where N is a symbol and P is a list of symbols that are members of B.  Members of N and members of P are called nodes and parents respectively of B.
+
+If N is a list of symbols, a node literal over N is a string of the form "cS" where c∈{"","-"} and S is a symbol.
+
+If B is a DAG, a table entry over B is a key value pair {J:x} where J is a string and x is a floating point number.
+
+If B is a Directed Acyclical Graph a table list over B is a list of table entries over B
+
+A bayesian network is a pair (B,F) where B is a Directed Acyclical Graph and F is a table list over B.
+
+
